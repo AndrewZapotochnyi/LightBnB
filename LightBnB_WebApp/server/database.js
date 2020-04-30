@@ -7,13 +7,16 @@ const pool = new Pool({
   database: 'lightbnb'
 });
 
-
-
-
 const properties = require('./json/properties.json');
 const users = require('./json/users.json');
 
 /// Users
+
+// helper functions
+
+// const query = (statement, params) {
+//   return poo.query(statement)
+// }
 
 /**
  * Get a single user from the database given their email.
